@@ -104,9 +104,10 @@ describe("room reservation contract test suite", async () => {
         });
 
         it("customer should ready the downpayment", async () => {
-            const query = await queryMethod("get-downpayment", null);
+            const query = await queryMethod("get-downpayment", roomNo);
             const dp = Result.unwrapUInt(query)
             payment = dp;
+            assert.equal(query.success, true)
         });
 
         it("should deposit reservation fee", async () => {
@@ -154,12 +155,13 @@ describe("room reservation contract test suite", async () => {
         });
 
         it("customer should ready the balance to be paid", async () => {
-            const query = await queryMethod("get-balance", null);
+            const query = await queryMethod("get-balance", roomNo);
             const bal = Result.unwrapUInt(query)
             payment = bal;
+            assert.equal(query.success, true)
         });
 
-        it("customer should deposit balance", async () => {
+        it("customer should deposit the balance remaining", async () => {
             var fee = new BigNum(5289);
             const customerStacksAddress = customerKeys.keyInfo.address;
             const ownerStacksAddress = ownerKeys.keyInfo.address;
