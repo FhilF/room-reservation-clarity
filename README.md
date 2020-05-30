@@ -57,7 +57,7 @@ and run again the command to start testnet terminal
 ### Run room-reservation-clarity
 
 Run the contract in the room-reservation-clarity terminal using
-`npm run`
+`npm run reservation`
 
 ### Verify the balances by running the link to a browser
 
