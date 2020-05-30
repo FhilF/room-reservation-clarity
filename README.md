@@ -1,4 +1,5 @@
 # Room Reservation Contract - Blockstack Clarity
+A website/application that uses clarity to transact using contracts to reserve a from a hotel
 
 ## Scenario
 
