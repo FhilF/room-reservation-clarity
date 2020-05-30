@@ -1,0 +1,36 @@
+{
+  "name": "room-reservation-clarity",
+  "version": "0.0.0",
+  "author": {
+    "name": "Fhilip Jhune Fernandez",
+    "email": "fhilipfernandez0209@gmail.com"
+  },
+  "repository": "",
+  "private": true,
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "mocha",
+    "counter": "mocha 'test/counter.ts'",
+    "hotel": "mocha 'test/room-reservation.ts'",
+    "test:watch": "mocha --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^10",
+    "typescript": "^3.5.2",
+    "ts-node": "^8.2.0",
+    "chai": "^4.2.0",
+    "@types/chai": "^4.1.7",
+    "mocha": "^6.1.4",
+    "@types/mocha": "^5.2.7"
+  },
+  "dependencies": {
+    "@blockstack/clarity": "^0.1.16",
+    "@blockstack/clarity-native-bin": "^0.1.16",
+    "@blockstack/stacks-transactions": "^0.4.3",
+    "axios": "^0.19.2",
+    "bn.js": "^5.1.1",
+    "fs": "0.0.1-security"
+  }
+}
