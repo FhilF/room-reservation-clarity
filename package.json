@@ -29,7 +29,7 @@
     "@blockstack/clarity": "^0.1.16",
     "@blockstack/clarity-native-bin": "^0.1.16",
     "@blockstack/stacks-transactions": "^0.4.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bn.js": "^5.1.1",
     "fs": "0.0.1-security"
   }
