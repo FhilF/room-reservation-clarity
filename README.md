@@ -1,6 +1,9 @@
 # Room Reservation Contract - Blockstack Clarity
 A website/application that uses clarity to transact using contracts to reserve a from a hotel
 
+## One of the winners of level 1 Clarity hackathon
+https://community.stacks.org/clarity-winners#level1
+
 ## Scenario
 
 This is a scenario where **user** are **Customer** and **hotel owner** are **Owner**.
